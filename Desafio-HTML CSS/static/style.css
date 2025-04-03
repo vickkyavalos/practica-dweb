@@ -1,0 +1,112 @@
+:root{
+    --fondo: #494959;
+    --color1: #867395;
+    --color2: #CEB7E0;
+    --color3: #E8DBF2;
+    --color4: #FDEFF2;
+    --color5: #EBF0FC;
+    --gris: #918C97;
+    --grisOscuro: #2C2C2E;
+    --negro: #000000;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+/* ************************************************************************* */
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+    background-color: var(--color2);
+}
+
+/*********************************************header************************************************************/
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color4);
+    padding: 10px;
+    color: var(--grisOscuro);
+}
+
+header, .navegacion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color4);
+    padding: 5px;
+    text-decoration: none;
+    text-decoration-style: none;
+}
+/********************************************* main ************************************************************/
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    gap: 20px; 
+}
+.card{
+    padding-left:100px;
+    padding-right:100px;
+}
+.textSM{
+    padding-left:5px;
+    padding-right:5px;
+}
+.sobremi {
+    display: flex;
+    align-items: center;
+    gap: 15px; 
+    padding: 50px;
+}
+
+.sobremi img {
+    margin: 10px;
+    width: 350px; 
+    height: auto;
+    border-radius: 10px; 
+}
+/*********************************************section************************************************************/
+section, a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin: 15px 10px; 
+    padding: 10px;
+}
+
+.cardMini{
+    width: 150px;
+    height: 80px;
+    margin: 25px;
+    background-color: var(--color3);
+    background-position: center;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 20px 55px;
+    transition: box-shadow 0.3s ease-in-out;
+    overflow: hidden;
+    opacity: 0.9;
+}
+.redes{
+    background-color: var(--color3);
+}
+.iconos{
+    width: 20px;
+    height: 20px;
+    background-color: var(--color4);
+}
+/*********************************************footer ************************************************************/
+footer, .textF{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color3);
+    padding: 15px;
+    text-decoration: none;
+    width: 100%;
+}
