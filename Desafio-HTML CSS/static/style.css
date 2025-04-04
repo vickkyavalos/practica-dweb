@@ -8,11 +8,25 @@
     --gris: #918C97;
     --grisOscuro: #2C2C2E;
     --negro: #000000;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Courier Prime", monospace;
     font-weight: 400;
     font-style: normal;
 }
-/* ************************************************************************* */
+/******************************************tipografias*********************************************************/
+.press-start-2p-regular {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.cutive-mono-regular {
+    font-family: "Cutive Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
+/*********************************************all************************************************************/
 *{
     margin: 0 auto;
     padding: 0 auto;
@@ -20,13 +34,15 @@
 }
 
 /*********************************************header************************************************************/
-h1{
+h1, h2{
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: var(--color4);
     padding: 10px;
     color: var(--grisOscuro);
+    font-family:  "Cutive Mono", monospace;
+    font-size: 40px;
 }
 
 header, .navegacion{
@@ -35,8 +51,12 @@ header, .navegacion{
     align-items: center;
     background-color: var(--color4);
     padding: 5px;
+    color: black;
     text-decoration: none;
     text-decoration-style: none;
+}
+.navegacion:hover{
+    color: var(--color1);
 }
 /********************************************* main ************************************************************/
 main {
@@ -50,14 +70,23 @@ main {
     padding-right:100px;
 }
 .textSM{
+    font-size: 18px;
+    max-width: 450px;
+    line-height: 1.5; 
     padding-left:5px;
     padding-right:5px;
 }
 .sobremi {
     display: flex;
-    align-items: center;
-    gap: 15px; 
+    align-items: flex-start;
+    gap: 20px; 
     padding: 50px;
+    margin: 0 auto;
+    flex-wrap: wrap; 
+}
+
+.sobremi h2 {
+    margin-bottom: 10px;
 }
 
 .sobremi img {
@@ -65,7 +94,10 @@ main {
     width: 350px; 
     height: auto;
     border-radius: 10px; 
+    box-shadow: rgba(0, 0, 0, 0.80) 0px 20px 55px;
 }
+
+
 /*********************************************section************************************************************/
 section, a{
     display: flex;
@@ -74,6 +106,7 @@ section, a{
     text-decoration: none;
     margin: 15px 10px; 
     padding: 10px;
+    font-size: 20px;
 }
 
 .cardMini{
@@ -98,7 +131,7 @@ section, a{
 .iconos{
     width: 20px;
     height: 20px;
-    background-color: var(--color4);
+    background: none;
 }
 /*********************************************footer ************************************************************/
 footer, .textF{

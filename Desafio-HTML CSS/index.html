@@ -6,31 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>desafío front</title>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="static/style.css">
 </head>
 <body>
     <h1>Victoria Inés Avalos</h1>
     <header>
-        <nav>
+        <nav id="menu">
             <ul class="navegacion">
-                <a href="" class="navegacion"><li class="navegacion">Home</li></a>
-                <a href="" class="navegacion"><li class="navegacion">About me</li></a>
-                <a href="" class="navegacion"><li class="navegacion">Contact</li></a>
+                <a href="#menu" class="navegacion"><li class="navegacion">Home</li></a>
+                <a href="#yoText" class="navegacion"><li class="navegacion">About me</li></a>
+                <a href="#seccionContacto" class="navegacion"><li class="navegacion">Contact</li></a>
             </ul>
         </nav>
     </header>
 
-    <main>
+    <main id="yoText">
         <div class="card">
             <div class="sobremi">
-            <p class="textSM">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> 
-            <br>
-            <img src="static/me.jpeg" alt="">
+                <div>
+                    <h2>Sobre mí</h2>
+                    <p class="textSM">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+                <img src="static/me.jpeg" alt="">
+            </div>
         </div>
     </main>
-        </div>
         
-        <section>
+        <section id="seccionContacto">
             <div class="cardMini">
                 <a href="https://www.instagram.com/aa.vickk/" class="redes">
                     <img class="iconos" src="static/instagram.svg" alt="">
