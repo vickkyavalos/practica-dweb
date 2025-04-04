@@ -1,0 +1,145 @@
+:root{
+    --fondo: #494959;
+    --color1: #867395;
+    --color2: #CEB7E0;
+    --color3: #E8DBF2;
+    --color4: #FDEFF2;
+    --color5: #EBF0FC;
+    --gris: #918C97;
+    --grisOscuro: #2C2C2E;
+    --negro: #000000;
+    font-family: "Courier Prime", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+/******************************************tipografias*********************************************************/
+.press-start-2p-regular {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.cutive-mono-regular {
+    font-family: "Cutive Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
+/*********************************************all************************************************************/
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+    background-color: var(--color2);
+}
+
+/*********************************************header************************************************************/
+h1, h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color4);
+    padding: 10px;
+    color: var(--grisOscuro);
+    font-family:  "Cutive Mono", monospace;
+    font-size: 40px;
+}
+
+header, .navegacion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color4);
+    padding: 5px;
+    color: black;
+    text-decoration: none;
+    text-decoration-style: none;
+}
+.navegacion:hover{
+    color: var(--color1);
+}
+/********************************************* main ************************************************************/
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    gap: 20px; 
+}
+.card{
+    padding-left:100px;
+    padding-right:100px;
+}
+.textSM{
+    font-size: 18px;
+    max-width: 450px;
+    line-height: 1.5; 
+    padding-left:5px;
+    padding-right:5px;
+}
+.sobremi {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px; 
+    padding: 50px;
+    margin: 0 auto;
+    flex-wrap: wrap; 
+}
+
+.sobremi h2 {
+    margin-bottom: 10px;
+}
+
+.sobremi img {
+    margin: 10px;
+    width: 350px; 
+    height: auto;
+    border-radius: 10px; 
+    box-shadow: rgba(0, 0, 0, 0.80) 0px 20px 55px;
+}
+
+
+/*********************************************section************************************************************/
+section, a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin: 15px 10px; 
+    padding: 10px;
+    font-size: 20px;
+}
+
+.cardMini{
+    width: 150px;
+    height: 80px;
+    margin: 25px;
+    background-color: var(--color3);
+    background-position: center;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 20px 55px;
+    transition: box-shadow 0.3s ease-in-out;
+    overflow: hidden;
+    opacity: 0.9;
+}
+.redes{
+    background-color: var(--color3);
+}
+.iconos{
+    width: 20px;
+    height: 20px;
+    background: none;
+}
+/*********************************************footer ************************************************************/
+footer, .textF{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color3);
+    padding: 15px;
+    text-decoration: none;
+    width: 100%;
+}

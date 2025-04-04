@@ -1,0 +1,43 @@
+Desafío 1: Crea una página de presentación simple
+🔹 Objetivo:
+Construir una página HTML con una presentación breve sobre ti.
+
+🔹 Instrucciones:
+Crea un archivo index.html.
+
+Agrega una estructura básica de HTML5.
+
+Dentro del <body>, agrega:
+
+Un título (<h1>) con tu nombre.
+
+Un párrafo (<p>) con una breve descripción sobre ti.
+
+Una imagen (<img>) con tu foto de perfil.
+
+Aplica estilos en un archivo styles.css para cambiar el color del texto y el fondo de la página.
+
+
+🎯  Desafío 2: Crea una tarjeta de presentación con CSS
+🔹 Objetivo:
+Diseñar una tarjeta de presentación con HTML y CSS.
+
+🔹 Instrucciones:
+Usa un <div> para estructurar la tarjeta.
+
+Agrega un <h2> para el nombre, un <p> para la descripción y una imagen de perfil.
+
+Usa CSS para darle estilos como sombra, bordes redondeados y un efecto de hover.
+
+🎯 Desafío 3: Maquetar una landing page sencilla
+🔹 Objetivo:
+Crear la estructura de una landing page con HTML y CSS.
+
+🔹 Instrucciones:
+Diseña una cabecera con un logo y un menú de navegación. Esto sería el header (que es diferente del head)del html - logo uno cualquiera, sacalo de canva o lo que te guste - menu de navegación que sean inicio, servicios, y contacto. que no redirija a nada, la proxima semana se harán los desafios para estos)
+
+Crea una sección principal con un título y un botón de llamada a la acción.
+
+Agrega una sección de "Sobre Nosotros" con un texto explicativo.
+
+Aplica estilos CSS para mejorar el diseño y el espaciado.
